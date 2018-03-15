@@ -35,7 +35,4 @@ function removeLastKitten(){
 function removeFirstKitten(){
   var kittens_new = kittens.slice(1);
   return kittens_new;
-=======
-  return kittens.unshift('name');
->>>>>>> 931c10ec9abc56052e992786dc530d5c3914e444
 }
